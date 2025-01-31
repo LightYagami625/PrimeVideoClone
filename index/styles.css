@@ -1,6 +1,7 @@
 body{
     background-color: black;
     margin: 0;
+    width: auto;
     
 }
 
@@ -27,6 +28,7 @@ body{
 }
 
 .body-content{
+    height: 500px;
     width: 100%;
     padding: 44px;
     background-color: black;
@@ -57,13 +59,13 @@ span{
 }
 .image{
     display: grid;
-    grid-template-columns: repeat(2, 150px); /* 2 columns */
-    grid-template-rows: repeat(2, 150px); /* 2 rows */
+    grid-template-columns: repeat(2, 200px); /* 2 columns */
+    grid-template-rows: repeat(2, 200px); /* 2 rows */
     gap: 10px;
 }
 .image img{
-    width: 150px; /* Adjust size */
-    height: 150px;
+    width: 200px; /* Adjust size */
+    height: 200px;
     border-radius: 10px; /* Optional: Rounded corners */
     object-fit: cover;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -72,6 +74,33 @@ span{
 .separator{
     height: 100%;
     width: 50px;
-    background-color: white;
+    background-color: black;
     color: white;
+}
+.lwr-text {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.lower-body{
+    padding-top: 44px;
+    padding-left: 44px;
+    padding-bottom: 44px;
+    padding-right: 0px;
+    margin-top: 200px;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.imagess img{
+    width: 500px; /* Adjust size */
+    height: 100%;
+    border-radius: 10px; /* Optional: Rounded corners */
+    justify-content: end;
+    /*object-fit: cover;*/
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    padding: 0;
 }
