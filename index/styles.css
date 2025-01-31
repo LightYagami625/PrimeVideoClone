@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    margin: 0;
+    
+}
+
+.nav{
+    background-color: black; /* Black background */
+    padding: 26px; /* Add some padding */
+    text-align: left;
+}
+
+.nav a{
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 4px; /* Add spacing between links */
+    padding: 0px 15px; /* Padding for better click area */
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: gray; /* Gray background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.body-content{
+    width: 100%;
+    padding: 44px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+}
+h1{
+    font-size: 36px;
+    font-family: Arial;
+}
+span{
+    display: block;
+}
+
+.signin-btn {
+    margin-top: 10px;
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: none;
+    margin-left: 44px;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 150px); /* 2 columns */
+    grid-template-rows: repeat(2, 150px); /* 2 rows */
+    gap: 10px;
+}
+.image img{
+    width: 150px; /* Adjust size */
+    height: 150px;
+    border-radius: 10px; /* Optional: Rounded corners */
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.separator{
+    height: 100%;
+    width: 50px;
+    background-color: white;
+    color: white;
+}
